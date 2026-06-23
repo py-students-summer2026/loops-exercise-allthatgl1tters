@@ -11,36 +11,36 @@ def do_easy():
     # easy.five(10)
     # easy.six(8)
     # easy.seven('circumlocution')
-    # easy.eight(24)
+    # easy.eight(1)
     # easy.nine()
     # easy.ten('circumlocution')
     pass # do nothing
 
 def do_medium():
     # "medium" problems
-    # medium.one()
-    # medium.two()
-    # medium.three()
-    # medium.four()
-    # medium.five(10)
-    # medium.six(8)
-    # medium.seven()
-    # medium.eight(24)
-    # medium.nine()
-    # medium.ten()
+    # medium.one([3, 83, 32, 4, 19, 29, 0])
+    # medium.two([3, 83, 32, 4, 19, 29, 0])
+    # medium.three("racecar")
+    # medium.four(5)
+    # medium.five([3, 83, 32, 4, 19, 29, 0])
+    # medium.six(5)
+    # medium.seven(16)
+    # medium.eight()
+    # medium.nine("Scientific revolution figures: Newton, Galileo, Kepler, Copernicus, Brahe")
+    # medium.ten([1, 2, 3], [2, 3, 4])
     pass # do nothing
 
 def do_difficult():
     # "difficult" problems
-    # difficult.one()
-    # difficult.two()
-    # difficult.three()
-    # difficult.four()
-    # difficult.five(10)
+    # difficult.one(68)
+    # difficult.two(8)
+    # difficult.three("listen", "silent")
+    # difficult.four(5)
+    # difficult.five([3, 83, 32, 4, 19, 29, 0])
     # difficult.six(8)
-    # difficult.seven()
-    # difficult.eight(24)
-    # difficult.nine()
+    # difficult.seven(6789)
+    # difficult.eight("Newton developed calculus while astronomers observed constellations")
+    # difficult.nine("The quick brown fox jumps over the lazy dog")
     # difficult.ten()
     pass # do nothing
 

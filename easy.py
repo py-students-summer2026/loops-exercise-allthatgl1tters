@@ -46,10 +46,10 @@ def five(number):
     """
     print('\neasy.five:')
 
-    product = number
-    for i in range(number-1, 0, -1):
-        product = product * i
-    print('\t', f'{number} factorial = {product}')
+    factorial = 1
+    for i in range(1, number + 1):
+        factorial *= i
+    print('\t', f'{number}! = {factorial}')
 
 def six(target):
     """
@@ -75,7 +75,7 @@ def seven(text):
 
     total = 0
     for character in text:
-        if character in ['a', 'e', 'i', 'o', 'u']:
+        if character.lower() in ['a', 'e', 'i', 'o', 'u']:
             total += 1
     print('\t', f'# vowels in "{text}" = {total}')
 
@@ -84,19 +84,21 @@ def eight(number):
     Write a program that checks if a given number is prime using a while loop. A prime number is a number greater than 1 that is only evenly divisible by 1 and itself.
     """
     print('\neasy.eight:')
-
-    is_prime = True # assume it's prime
-    divisor = number - 1
-    while divisor > 1:
+    
+    if number <= 1:
+        print('\t', f'{number} is not prime')
+        return
+    is_prime =True
+    divisor = 2
+    while divisor < number:
         if number % divisor == 0:
             is_prime = False
             break
-        divisor -= 1
-    
+        divisor += 1
     if is_prime:
         print('\t', f'{number} is prime')
     else:
-        print('\t', f'{number} is not prime... it is evenly divisible by {divisor}')
+        print('\t', f'{number} is not prime (divisible by {divisor})')
         
 def nine():
     """
